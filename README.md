@@ -2,6 +2,8 @@
 
 This is a simple web-based tool for creating social media posts for creators. See [demo](https://mayadunneandco.com/lab/post-maker).
 
+Built with Bootstrap 5 and Next.js.
+
 ![CraftlyPost](./public/Image.jpeg)
 
 ## Getting Started

@@ -17,6 +17,15 @@ const fontOptions = [
 
 export default function Home() {
 
+    const [uploadedImage, setUploadedImage] = useState(null);
+    const [imageUrl, setImageUrl] = useState('');
+    const [postText, setPostText] = useState('');
+    const [fontColor, setFontColor] = useState('#000000');
+    const [selectedFont, setSelectedFont] = useState(fontOptions[0]);
+    const [fontSize, setFontSize] = useState(16);
+    const [fontWeight, setFontWeight] = useState(300);
+    const [isMobile, setIsMobile] = useState(false);
+
     // Image Download
     const canvasRef = useRef(null);
 
@@ -53,15 +62,6 @@ export default function Home() {
             document.body.removeChild(downloadLink);
         };
     };
-
-    const [uploadedImage, setUploadedImage] = useState(null);
-    const [imageUrl, setImageUrl] = useState('');
-    const [postText, setPostText] = useState('');
-    const [fontColor, setFontColor] = useState('#000000');
-    const [selectedFont, setSelectedFont] = useState(fontOptions[0]);
-    const [fontSize, setFontSize] = useState(16);
-    const [fontWeight, setFontWeight] = useState(300);
-    const [isMobile, setIsMobile] = useState(false);
 
     useEffect(() => {
 
