@@ -1,6 +1,6 @@
 ## CraftlyPost
 
-This is a simple web-based tool for creating social media posts for creators. See [demo](https://mayadunneandco.com/lab/post-maker).
+This is a simple web-based tool for creating social media posts for creators.
 
 Built with Bootstrap 5 and Next.js.
 
