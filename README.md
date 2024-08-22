@@ -1,10 +1,10 @@
-## CraftlyPost
+## Craftly
 
 This is a simple web-based tool for creating social media posts for creators.
 
 Built with Bootstrap 5 and Next.js.
 
-![CraftlyPost](./public/Image.jpeg)
+![Craftly](./public/Image.jpeg)
 
 ## Getting Started
 
